@@ -7,8 +7,9 @@ import sys
 
 def emptyFolder(target):
     dirName = target
+    # Walk through the files and folders in the targeted directory.
     for levels in os.walk(dirName, topdown=False):
-        for directory in levels[1]: os.rmdir(levels[0] + levels[0])
+        for directory in levels[1]: 
+            os.rmdir(levels[0] + directory)
         for fileToDelete in levels[2]:
             os.remove(levels[0] + fileToDelete)
-
