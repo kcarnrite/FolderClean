@@ -12,4 +12,4 @@ def emptyFolder(target):
         for directory in levels[1]: 
             os.rmdir(levels[0] + directory)
         for fileToDelete in levels[2]:
-            os.remove(levels[0] + fileToDelete)
+            os.remove(levels[0] + '/' + fileToDelete)
