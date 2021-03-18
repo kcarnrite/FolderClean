@@ -10,13 +10,7 @@ A simple python script mainly created to target Downloads folders where unnecess
 
 ## Usage
 To use this script you can call it through terminal while being in the working directory using:
-<<<<<<< HEAD
 
-```python3 -i main.py
-emptyFolder(<Target Folder>)```
-=======
 ``python3 -i main.py``
 
 ``emptyFolder(<Target Folder>)``
->>>>>>> parent of 8017da6... Fixed spacing in usage
-
