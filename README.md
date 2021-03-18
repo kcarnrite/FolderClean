@@ -11,5 +11,6 @@ A simple python script mainly created to target Downloads folders where unnecess
 ## Usage
 To use this script you can call it through terminal while being in the working directory using:
 ``python3 -i main.py``
-``emptyFolder(**<Target Folder>**)``
+
+``emptyFolder(<Target Folder>)``
 
